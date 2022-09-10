@@ -1,0 +1,265 @@
+body {
+        padding: 0px;
+        margin: 0px;
+}
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: aliceblue;
+    opacity: 0.8;
+    text-align: center;
+}
+.header h2{
+    padding-top: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+.header h4{
+    
+    font-size: 30px;
+    color: orangered;
+
+}
+.section1 {
+    width: 100%;
+    height: 80vh;
+    background-color: aquamarine;
+   
+}
+.section1 .courses{
+    margin: 0;
+    padding-left: 0;
+    
+}
+#bg-video{
+    position: absolute;
+    opacity: 0.7;
+    height: 80vh;
+    width: 72%;
+    
+   
+}
+.section1 .mid a {
+    text-align: center;
+
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 150px;
+    padding: 50px;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 3px solid black;
+    text-transform: uppercase;
+    
+    
+}
+.section1 .mid a:hover{
+    background-color: aquamarine;
+    color:orangered;
+}
+.header-body {
+    display: grid;
+    grid-template-columns: 15% 50% 10%;
+
+}
+
+.header-body .left a{  
+    display: grid;
+    grid-template-rows: auto auto;
+    position: relative;
+    text-align: center; 
+    margin-top: 10px;
+    margin-left: 5px;
+    width:180px; 
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;  
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: orange;
+    opacity: 0.8;
+    
+}
+
+.header-body .left a:hover{
+    background-color:green;
+    color:whitesmoke;
+}
+
+.right {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+.header-body  .right a {
+    position: relative;
+    text-align: center;
+    margin-left: 280px;
+    width:180px;
+    padding: 10px;
+    margin-top: 20px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+       
+    text-transform: uppercase;
+    background-color: orange;
+    opacity: 0.8;
+}
+.header-body .right a:hover{
+        background-color:green;
+        color:whitesmoke;
+    
+}
+.right img{
+    position: relative;
+    width:200px;
+    height: 200px;
+    
+    margin-left: 280px;
+    margin-top: 20px;
+    
+}
+.right h3{
+    margin-left: 280px;
+    margin-top: 20px;
+    width:200px;
+    text-align: center;
+}
+
+.section2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./main-slider-01.jpg");
+}
+ .content{
+    display: inline-block;
+    
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.container > a{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 50px;
+    border: 2px solid black;
+    height: 9vh;
+
+}
+.container a:hover{
+    background-color: aqua;
+    color:black;
+
+}
+.section3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./bg-image2.png");
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: max-content;
+    
+}
+.grid-container > a{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 50px;
+    border: 2px solid black;
+    height: 132px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.grid-container > a:hover{
+    background-color: greenyellow;
+    
+}
+.title{
+    height: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.title h2{
+    padding-top: 10px;
+}
+.section4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./bg-image2.png");
+    margin-top: 5px;
+}
+.lecturewise{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto ;
+    grid-auto-rows: max-content;
+    column-gap: 5px;
+    row-gap: 10px;
+    
+}
+.lecturewise > a{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border: 2px solid black;
+   
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.lecturewise > a:hover{
+    background-color:greenyellow;
+    color: black;
+}
+#home{
+    background-color: brown;
+    color: antiquewhite;
+}
+
+.epaper{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-auto-rows: max-content;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+.epaper > a{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px;
+    border: 2px solid black;
+   
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.epaper > a:hover{
+    background-color:greenyellow;
+    color: black;
+}
